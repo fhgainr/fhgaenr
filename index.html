@@ -20,19 +20,18 @@
             <div class="row">
                 <div class="text">
                     <div class="intro", style="text-align: center">
-                        <h1 class="text-center"><br><br>ULTRA LOW COMPLEXITY DEEP LEARNING BASED NOISE SUPPRESSION<br></h1>
-                        <h5 class="text-center"><i> Shrishti Saha Shetu, Soumitro Chakrabarty, Oliver Thiergart, Edwin Mabande</i> <br><br></h5>
+                        <h1 class="text-center"><br><br>A HYBRID APPROACH FOR LOW-COMPLEXITY JOINT ACOUSTIC ECHO AND NOISE REDUCTION<br></h1>
+                        <h5 class="text-center"><i> Shrishti Saha Shetu, Naveen Kumar Desiraju, Jose Miguel Martinez Aponte, Emanu"{e}l A. P. Habets, Edwin Mabande</i> <br><br></h5>
                         <a href="https://www.iis.fraunhofer.de/en/ff/amm.html"> <img src="./assets/img/fhg_iis_logo.png" alt="FhG_IIS" width="240" height="77" ></img></a>
                         <h5 class="text-center"> Fraunhofer IIS, Am Wolfsmantel 33, 91058 Erlangen, Germany</h5>
-                        <p class="text-center"><i>{shrishti.saha.shetu, soumitro.chakrabarty, oliver.thiergart, edwin.mabande}@iis.fraunhofer.de</i> <br></p>
+                        <p class="text-center"><i>{shrishti.saha.shetu, naveen.kumar.desiraju, miguel.martinez, emanuel.habets, edwin.mabande}@iis.fraunhofer.de</i> <br></p>
                         <p class="text-center"> </p>
                     </div>
                     <div class="text">
                         <h2>Abstract</h2>
-                        <p class="text-justify"> This paper introduces an innovative method for reducing the computational complexity of deep neural networks in real-time speech enhancement on resource-constrained devices. 
-                            The proposed approach utilizes a two-stage processing framework, employing channelwise feature reorientation to reduce the computational load of convolutional operations. 
-                            By combining this with a novel power law compression technique for enhanced perceptual quality, this approach achieves noise suppression performance comparable to state-of-the-art methods.
-                            Our proposed model has 688K parameters and achieves 12.7% real time factor on a single core of an A53 processor with a complexity of 0.097 GMACs.<br></p>
+                        <p class="text-justify"> Deep learning-based methods that jointly perform the task of acoustic echo and noise reduction (AENR) often require high memory and computational resources, making them unsuitable for real-time deployment on low-resource platforms such as embedded devices.
+                            We propose a low-complexity hybrid approach for joint AENR by employing a single model to suppress both residual echo and noise components. Specifically, we integrate the state-of-the-art (SOTA) ULCNet model, which was originally proposed to achieve ultra-low complexity noise suppression, in a hybrid system and train it for joint AENR.
+                            We show that the proposed approach achieves better echo reduction and comparable noise reduction performance with much lower computational complexity and memory requirements than all considered SOTA methods, at the cost of slight degradation in speech quality.<br></p>
                         <figure></figure>
                         <p></p>
                     </div>
